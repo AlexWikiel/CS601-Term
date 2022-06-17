@@ -1,0 +1,75 @@
+/* :root {
+    --primary: #fff;
+    --secondary: rgb(186, 206, 231);
+    --font: rgb(53, 51, 51);
+    --fontlight: rgb(228, 228, 228);
+    --contrast: rgb(125,107,145) ;
+} */
+
+section {
+    margin-top: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+section h2 {
+    text-align: center;
+}
+
+section p {
+    margin-top: 2em;
+    text-align: center;
+}
+
+#app table {
+    margin-top: 2em;
+    background: var(--secondary);
+    border-collapse:collapse;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#app table tr {
+    
+    height: 60px;
+}
+
+#app table td {
+    background: var(--secondary);
+    width: 50px;
+    border: 2px solid #718aa7;
+    text-align: center;
+    padding: 8px;
+
+}
+#app table div {
+    border: 2px solid #718aa7;
+    border-radius: 5px;
+    padding: 7px 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.x {
+    color: red;
+    background-color: var(--primary);
+}
+
+#app div {
+    text-align:center;
+}
+
+button {
+    margin-top: 2em;
+    padding: .5em 1em;
+    border: solid 1px var(--font);
+    border-radius: 6px;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+button:hover {
+    background-color: lightcoral;
+    color: cornflowerblue;
+}

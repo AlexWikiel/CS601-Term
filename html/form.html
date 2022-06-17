@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+    <link rel="stylesheet" href="/css/template.css">
+    <link rel="stylesheet" href="/css/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav id="nav">
+        </nav>
+        <script src="/vue/nav.js"></script>
+        <div class="greeting">
+            <h1>Contact Me</h1>
+            <p>Send Me a Message...</p>
+        </div>
+    </header>
+
+    <!-- https://bucs601.com/submit.php -->
+    <section>
+        <h2>Fill out the information below and submit to send me a message.</h2>
+        <form action="" method="post" novalidate onsubmit="return validateForm()" >
+                
+
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" required placeholder="Please input first name">
+                    <label id="errFName" class="errDescriptor" for="firstName">Minimum 2 alpha characters</label>
+
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" required placeholder="Please input last name">
+                    <label id="errLName" class="errDescriptor" for="firstName">Minimum 2 alpha characters</label>
+
+                    <label for="email">Last Name</label>
+                    <input type="text" name="email" id="email" required placeholder="Please input email">
+                    <label id="errEMail" class="errDescriptor" for="firstName">Must be a valid email</label>
+                    
+                    <div class="rboxes">
+                        <p>Type of inquiry:</p>
+                        <p id="errColor" class="errDescriptor">Can't be blank</p>
+
+                        <input type="radio" id="personal" name="personal" value="red">
+                        <label for="redColor">Personal</label>
+
+                        <input type="radio" id="professional" name="professional" value="green">
+                        <label for="greenColor">Professional</label>
+                    </div>
+
+
+                    <div class="cboxex">
+                        <p>Programming Languages:</p>
+                        <p id="errProg" class="errDescriptor">Can't be blank</p>
+
+                        <input type="checkbox" id="pythonL" name="plang" value="python">
+                        <label for="pythonL">Python</label>
+                        <input type="checkbox" id="cplusplusL" name="plang" value="cplusplus">
+                        <label for="cplusplusL">C++</label>
+                        <input type="checkbox" id="csharpL" name="plang" value="csharp">
+                        <label for="csharpL">C#</label>
+                        <input type="checkbox" id="javaL" name="plang" value="java">
+                        <label for="javaL">Java</label>
+                    </div>
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="" cols="58" rows="10" required placeholder="Please write your message here..." spellcheck="true"></textarea>
+                    <!-- <textarea type="textbox" name="facilitator" id="facilitator" required placeholder="Please input facilitator"></form>textarea> -->
+
+                    <label id="errFacil" class="errDescriptor" for="firstName">Invalid facilitator</label>
+
+
+
+                   
+                    <button type="submit" id="submit">Submit Form</button>
+                    <button type="reset" id="clear">Clear Form</button>
+        </form>
+    </section>
+</body>
+<footer class="footer">
+    <h3>&#128513; Content created for Boston University Coursework &#128513;</h3>
+    <p> Copyright &copy; 2022 W. Alex Wikiel. All Rights Reserved</p>
+    <a href="https://www.linkedin.com/in/alex-wikiel-322a3341/" >
+        <img src="/images/linkedin.png" alt="linkedin Logo" width="30" height="30" >
+    </a>
+</footer>
+
+</html>

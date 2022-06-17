@@ -5,19 +5,21 @@ section{
     width: 80%;
     margin: auto;
     padding-top: 100px;
+    
 }
         
 .welcome{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: rgb(190, 211, 236);
+    background: var(--secondary);
+   
+    color: var(--font);
     padding: 25px;
     cursor: pointer;
     display: flex;
 }
 .welcome img{
-    /* height: 120px; */
     margin-left: 5px;
     margin-right:30px;
     border-radius: 50%;
@@ -25,12 +27,22 @@ section{
 .welcome h2{
     margin-top: 15px;
     text-align: Left;
+    background: var(--secondary);
  }
 .welcome p{
     margin-top: 20px;
     padding: 0;
     font-size: 25px;
+    background: var(--secondary);
 }
+.welcome figure {
+    background-color: var(--secondary);
+}
+
+.welcome div {
+    background-color: var(--secondary);
+}
+
 
 
 
@@ -51,13 +63,10 @@ section{
 }
 
 @media(max-width: 410px){
-    
-
         .welcome img{
             width: 0px;
             height: auto;
             margin-left: 0px;
             margin-right:0px;
         }
-    
 }

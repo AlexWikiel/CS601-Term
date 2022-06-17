@@ -12,13 +12,22 @@
         border-radius: 10px;
         margin-bottom: 5%;
         text-align: left;
-        background: rgb(190, 211, 236);
+        background: var(--secondary);
         padding: 25px;
         display: flex;
         width:100%;
       
         
     }
+
+    .tv_series div {
+        background: var(--secondary);
+    }
+    
+    .tv_series figure {
+        background: var(--secondary);
+    }
+
     .tv_series img{
         /* height: 120px; */
         margin-left: 5px;
@@ -30,11 +39,13 @@
     .tv_series h2{
         margin-top: 15px;
         text-align: Left;
+        background: var(--secondary);
      }
     .tv_series p{
         margin-top: 20px;
         padding: 0;
         font-size: 15px;
+        background: var(--secondary);
     }
 
   
