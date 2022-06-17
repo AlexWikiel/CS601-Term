@@ -17,7 +17,7 @@ const nav = Vue.createApp({
             <li><a href="/html/news.html">News</a></li>
             <li><a href="/html/favorites.html">Favorites</a></li>
             <li><a href="/html/tictactoe.html">Tic Tac Toe</a></li>
-            <li><a href="/html/form.html">Favorites</a></li>
+            <li><a href="/html/form.html">Contact Me</a></li>
         </ul>
    </nav>
     
