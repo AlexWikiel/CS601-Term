@@ -1,10 +1,6 @@
-/* :root {
-    --primary: #fff;
-    --secondary: rgb(186, 206, 231);
-    --font: rgb(53, 51, 51);
-    --fontlight: rgb(228, 228, 228);
-    --contrast: rgb(125,107,145) ;
-} */
+/* <!-- CS601 Term -->
+<!-- W. Alex Wikiel -->
+<!-- Tic Tac Toe Page --> */
 
 section {
     margin-top: 2em;
@@ -32,7 +28,6 @@ section p {
 }
 
 #app table tr {
-    
     height: 60px;
 }
 
@@ -51,10 +46,18 @@ section p {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
-.x {
-    color: red;
+.o {
+    color: var(--font);
     background-color: var(--primary);
+    background-color: cornflowerblue
 }
+
+.x {
+    color: var(--fontlight);
+    background-color: var(--primary);
+    background-color: lightcoral
+}
+
 
 #app div {
     text-align:center;

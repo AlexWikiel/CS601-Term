@@ -1,20 +1,23 @@
+// <!-- CS601 Term -->
+// <!-- W. Alex Wikiel -->
+// <!-- Tic Tac Toe Page --> */
 const app = Vue.createApp({
     template: `
     <table>
         <tr>
-            <td id="1_1" @click="PlaceToken($event)"><div id="c1_1" :class="{x: token1.marker === x}"  v-if="tokens[0].placed">{{tokens[0].marker}}</div></td>
-            <td id="1_2" @click="PlaceToken($event)"><div id="c1_2" :class="{x: token2.marker === x}"  v-if="tokens[1].placed">{{tokens[1].marker}}</div></td>
-            <td id="1_3" @click="PlaceToken($event)"><div id="c1_3" :class="{x: token3.marker === x}"  v-if="tokens[2].placed">{{tokens[2].marker}}</div></td>
+            <td id="1_1" @click="PlaceToken($event)"><div id="c1_1" :class="token1.marker"  v-if="tokens[0].placed">{{tokens[0].marker}}</div></td>
+            <td id="1_2" @click="PlaceToken($event)"><div id="c1_2" :class="token2.marker"  v-if="tokens[1].placed">{{tokens[1].marker}}</div></td>
+            <td id="1_3" @click="PlaceToken($event)"><div id="c1_3" :class="token3.marker"  v-if="tokens[2].placed">{{tokens[2].marker}}</div></td>
         </tr>
         <tr>
-            <td id="2_1" @click="PlaceToken($event)"><div id="c2_1" :class="{x: token4.marker === x}"  v-if="tokens[3].placed">{{tokens[3].marker}}</div></td>
-            <td id="2_2" @click="PlaceToken($event)"><div id="c2_2" :class="{x: token5.marker === x}"  v-if="tokens[4].placed">{{tokens[4].marker}}</div></td>
-            <td id="2_3" @click="PlaceToken($event)"><div id="c2_3" :class="{x: token6.marker === x}"  v-if="tokens[5].placed">{{tokens[5].marker}}</div></td>
+            <td id="2_1" @click="PlaceToken($event)"><div id="c2_1" :class="token4.marker"  v-if="tokens[3].placed">{{tokens[3].marker}}</div></td>
+            <td id="2_2" @click="PlaceToken($event)"><div id="c2_2" :class="token5.marker"  v-if="tokens[4].placed">{{tokens[4].marker}}</div></td>
+            <td id="2_3" @click="PlaceToken($event)"><div id="c2_3" :class="token6.marker"  v-if="tokens[5].placed">{{tokens[5].marker}}</div></td>
         </tr>
         <tr>
-            <td id="3_1" @click="PlaceToken($event)"><div id="c3_1" :class="{x: token7.marker === x}"  v-if="tokens[6].placed">{{tokens[6].marker}}</div></td>
-            <td id="3_2" @click="PlaceToken($event)"><div id="c3_2" :class="{x: token8.marker === x}"  v-if="tokens[7].placed">{{tokens[7].marker}}</div></td>
-            <td id="3_3" @click="PlaceToken($event)"><div id="c3_3" :class="{x: token9.marker === x}"  v-if="tokens[8].placed">{{tokens[8].marker}}</div></td>
+            <td id="3_1" @click="PlaceToken($event)"><div id="c3_1" :class="token7.marker"  v-if="tokens[6].placed">{{tokens[6].marker}}</div></td>
+            <td id="3_2" @click="PlaceToken($event)"><div id="c3_2" :class="token8.marker"  v-if="tokens[7].placed">{{tokens[7].marker}}</div></td>
+            <td id="3_3" @click="PlaceToken($event)"><div id="c3_3" :class="token9.marker"  v-if="tokens[8].placed">{{tokens[8].marker}}</div></td>
         </tr>
     </table>
     <p>{{message}}</p>

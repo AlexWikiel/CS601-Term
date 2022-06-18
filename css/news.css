@@ -1,15 +1,15 @@
-/*  CS601 Assignment 2
+/*  CS601 Term
     W. Alex Wikiel
     News Style Page  */
 
 section {
     width: 80%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 5em;
+    text-align: center;
 }
 
 .blog {
-
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
@@ -47,4 +47,17 @@ section {
     padding: 0;
     font-size: 15px;
     background-color: var(--secondary);
+}
+
+@media(max-width: 950px){
+    .blog img{ 
+        width: 80%;
+    }
+    h2 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 12px;
+    }
 }

@@ -1,33 +1,25 @@
-/*  CS601 Assignment 2
+/*  CS601 Term
     W. Alex Wikiel
     Interests Style Page  */
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-}
 
 section{
     width: 80%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 4em;
+    text-align: center;
+}
+
+section h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 section p{
     text-align: left;
 }
 
-section h2{
-    margin-top: 15px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 .tacos{
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
+    padding-top: 2em;
     align-items: center;
 }
 
@@ -35,20 +27,20 @@ section h2{
     text-align: center;
 }
 
-.tacos img{
-    display: block;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+.tacos a:hover{
+    color: var(--fontlight);
+    background: var(--contrast);
+    opacity: 35%;
+    border-radius: 2px;
 }
 
-section h3{
-    margin-top: 15px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    text-align: center;
+.tacos figure{
+    margin-top: 2em;
+}
+
+.tacos img{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 figure{
@@ -59,7 +51,6 @@ figure{
 aside{
     width: 40%;
     padding-left: 10%;
-    margin-left: .5rem;
     float: right;
 }
 aside > p {
@@ -94,32 +85,24 @@ button {
     background-color:cornflowerblue;
 }
 
-
 button:hover {
     background-color: gainsboro;
     color: cornflowerblue;
 }
 
-
-
-
-
-
 @media(max-width: 410px){
     aside{
         float: none;
-        padding-left: 0;
-        padding:0 0 10px 0;
+        padding:0;
+        width: 100%;
     }
     .beertable{
         border: 2px solid #718aa7;
         border-radius: 10px;
+        font-size: 12px;
+        box-shadow: none;
     }
-   
-    
     .beertable tr td{
         padding: 0 10px;
     }
-
-
 }

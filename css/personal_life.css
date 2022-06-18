@@ -1,16 +1,11 @@
-/*  CS601 Assignment 2
+/*  CS601 Term
     W. Alex Wikiel
     Personal Life Style Page  */
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-}
 
 section{
-    width: 80%;
+    width: 70%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 5em;
 }
 
 section
@@ -19,21 +14,25 @@ section p{
     text-align: left;
 }
 
+section a:hover{
+    color: var(--fontlight);
+    background: var(--contrast);
+    opacity: 35%;
+    border-radius: 2px;
+}
+
 section h2{
-    margin-top: 15px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 1em; 
     text-align: center;
 }
 
 figure{
-    margin-top: 30px;
+    margin-top: 2em;
     text-align: center;
-    
 }
 
 figure figcaption {
-    margin-top: 10px;
+    margin-top: 2em;
 }
 figure img{
     border-radius: 10px;

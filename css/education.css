@@ -7,11 +7,6 @@ section{
     margin: auto;
     padding-top: 100px;
     text-align: center;
-    fill: aqua;
-}
-
-section p{
-    text-align: left;
 }
 
 section h2{
@@ -20,8 +15,11 @@ section h2{
     margin-bottom: 20px;
  }
 
+section p{
+    text-align: left;
+}
+
 section ul{
-    flex:1;
     text-align:center
 }
 
@@ -35,11 +33,8 @@ section ul li {
 
 section ul li a{
     text-decoration: none;
-    vertical-align:middle;
-    z-index: 2;
+    /* vertical-align:middle; */
 }
-
-
 
 .layer1 {
     background: transparent;
@@ -52,5 +47,6 @@ section ul li a{
     border-radius: 10px;
 }
 .layer1:hover{
-    background: rgba(190, 211, 236, 0.5);
+    background: var(--contrast);
+    opacity: 35%;
 }
