@@ -25,10 +25,10 @@
         </div>
     </header>
 
-    <!-- https://bucs601.com/submit.php -->
     <section>
         <h2>Fill out the information below and submit to send me a message.</h2>
-        <!-- this will not validate because of netlify-->
+
+        <!--******************* this will not validate because of netlify **************************-->
         <form method="post" novalidate onsubmit="return validateForm()" netlify>
             <!-- for debugging -->
             <!-- <form method="post" action="" novalidate  onsubmit="return validateForm()"> -->
@@ -58,7 +58,7 @@
 
             <label for="message">Message</label>
             <label id="errMessage" class="errDescriptor" for="message">Please enter your message</label>
-            <textarea type="text" name="message" id="message" cols="58" rows="10" required
+            <textarea name="message" id="message" cols="58" rows="10" required
                 placeholder="Please write your message here..." spellcheck="true"></textarea>
 
 

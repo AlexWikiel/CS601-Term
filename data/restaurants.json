@@ -1,0 +1,30 @@
+{
+  "title":"Local Rhode Island Resturants",
+  "breweries": [
+    {
+      "rank": 1,
+      "name": "Los Andes",
+      "location": "Providence, RI"
+    },
+    {
+      "rank": 2,
+      "name": "Slow Rhode",
+      "location": "Providence, RI"
+    },
+    {
+      "rank": 3,
+      "name": "Chengdu",
+      "location": "Providence, RI"
+    },
+    {
+      "rank": 4,
+      "name": "Matunuck Oyster Bar",
+      "location": "Matunuck, RI"
+    },
+    {
+      "rank": 5,
+      "name": "Rogue Island",
+      "location": "Providence, RI"
+    }
+  ]
+}

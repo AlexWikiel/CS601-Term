@@ -11,8 +11,10 @@
     <script src="https://unpkg.com/vue@3.0.2"></script>
     <link rel="stylesheet" href="../css/template.css">
     <link rel="stylesheet" href="../css/interests.css">
+    <!-- <link rel="stylesheet" href="../beer.json"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="../js/interests.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
     <title>Alex Wikiel Personal Interests</title>
 </head>
@@ -45,42 +47,12 @@
     </section>
     <section>
         <h2>Beers, Beats, Films...Battlestar Gallatica (for all The Office Fans)</h2>
-        
-            <aside>
-                <table class="beertable">
-                    <caption>Local Rhode Island Breweries</caption>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Brewery Name</th>
-                        <th>Location</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Proclamation</td>
-                        <td>Warwick, RI</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Longlive</td>
-                        <td>Providence, RI</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Shaidzon</td>
-                        <td>Kingston, RI</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Buttonwoods</td>
-                        <td>Cranston, RI</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Tilted Barn</td>
-                        <td>Exeter, RI</td>
-                    </tr>
-            </table>
+
+        <aside id="asideForTable">
+            <div class="btn_change"><button onclick="changeList()">Change List</button></div>
         </aside>
+            
+            
         <p>I also enjoy craft beers. 10 years ago, I would have told you an IPA was gross. Thankfully, my taste buds
             have matured, just in time for the explosion of local breweries in RI. My favorite brewery is Proclamation
             in Warwick, RI. I have added a table ranking my preferences. </p>
@@ -90,8 +62,7 @@
             There is also a place in my heart for some old school hip-hop, and no, I have no preference between East and
             West coast.</p>
         </section>
-        <br>
-        <br>
+        
         <footer>
             <h3>&#128513; Content created for Boston University Coursework &#128513;</h3>
             <p> Copyright &copy; 2022 W. Alex Wikiel. All Rights Reserved</p>

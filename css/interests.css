@@ -64,6 +64,7 @@ aside{
 }
 aside > p {
     margin: .5rem;
+    text-align: center;
 }
 
 .beertable{
@@ -79,6 +80,30 @@ aside > p {
 .beertable tr td{
     padding: 0 20px;
 }
+
+.btn_change  {
+    margin-bottom: 0.5em;
+}
+
+button {
+    margin-top: 1em;
+    padding: .5em 1em;
+    border: solid 1px var(--font);
+    border-radius: 6px;
+    color: white;
+    background-color:cornflowerblue;
+}
+
+
+button:hover {
+    background-color: gainsboro;
+    color: cornflowerblue;
+}
+
+
+
+
+
 
 @media(max-width: 410px){
     aside{

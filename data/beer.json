@@ -1,0 +1,30 @@
+{
+  "title":"Local Rhode Island Breweries",
+  "breweries": [
+    {
+      "rank": 1,
+      "name": "Proclamation",
+      "location": "Warwick, RI"
+    },
+    {
+      "rank": 2,
+      "name": "Longlive",
+      "location": "Providence, RI"
+    },
+    {
+      "rank": 3,
+      "name": "Shaidzon",
+      "location": "Kingston, RI"
+    },
+    {
+      "rank": 4,
+      "name": "Buttonwoods",
+      "location": "Cranston, RI"
+    },
+    {
+      "rank": 5,
+      "name": "Tilted Barn",
+      "location": "Exeter, RI"
+    }
+  ]
+}
