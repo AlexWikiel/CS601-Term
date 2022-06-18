@@ -40,15 +40,15 @@
             <!-- <form method="post" action="" novalidate  onsubmit="return validateForm()"> -->
 
             <label for="firstName">First Name</label>
-            <input type="text" name="firstName" id="firstName" required placeholder="Please input first name">
+            <input class="tbox" type="text" name="firstName" id="firstName" required placeholder="Please input first name">
             <label id="errFName" class="errDescriptor" for="firstName">Minimum 2 alpha characters</label>
 
             <label for="lastName">Last Name</label>
-            <input type="text" name="lastName" id="lastName" required placeholder="Please input last name">
+            <input class="tbox" type="text" name="lastName" id="lastName" required placeholder="Please input last name">
             <label id="errLName" class="errDescriptor" for="lastName">Minimum 2 alpha characters</label>
 
             <label for="email">Email</label>
-            <input type="text" name="email" id="email" required placeholder="Please input email">
+            <input class="tbox" type="text" name="email" id="email" required placeholder="Please input email">
             <label id="errEMail" class="errDescriptor" for="email">Must be a valid email</label>
 
             <div class="rboxes">
@@ -64,7 +64,8 @@
 
             <label for="message">Message</label>
             <label id="errMessage" class="errDescriptor" for="message">Please enter your message</label>
-            <textarea name="message" id="message" cols="58" rows="10" required
+              
+            <textarea class="tbox" name="message" id="message" rows="10" required
                 placeholder="Please write your message here..." spellcheck="true"></textarea>
 
 

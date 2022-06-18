@@ -36,6 +36,11 @@ input {
     border: solid 1px var(--font);
     border-radius: 6px;
     background-color: var(--primary);
+
+}
+.tbox {
+    overflow: hidden;
+    width: 92%;
 }
 
 textarea {
@@ -43,7 +48,15 @@ textarea {
     padding: .5em 1em;
     border: solid 1px var(--font);
     border-radius: 6px;
-    background-color: var(--primary);;
+    background-color: var(--primary);
+
+    /* display: block;
+    width: 92%;
+    overflow: hidden; */
+    /* resize: both; */
+    /* min-height: 40px; */
+    /* line-height: 20px; */
+    
 }
 
 .cboxex {
